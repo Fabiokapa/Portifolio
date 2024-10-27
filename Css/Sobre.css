@@ -1,0 +1,59 @@
+.container_infor{
+
+    width: 100%;
+    height: auto;
+    
+}
+
+.container_infor #infor{
+
+    max-width:900px;
+    margin: 0 auto;
+
+    padding: 18px;
+    font-size:17px;
+    text-align:justify;
+}
+
+.sobre_me{
+
+    max-width:900px;
+    margin:10px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+
+}
+
+
+.img_sobre{
+
+    width:200px;
+    clip-path: circle();
+    background-color:#4a8db7;
+}
+
+.info_pessoal{
+    display:grid;
+    grid-template-columns: repeat(2,1fr);
+    gap: 20px;
+}
+
+
+@media(max-width:560px){
+
+    .sobre_me{
+
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+
+    .info_pessoal{
+    
+        display:grid;
+        grid-template-columns:1fr;
+        gap:10px;
+    }
+        
+}
