@@ -7,43 +7,37 @@ body{
     background: #d6d2d2;
 }
 
-
 a{
-    
     text-decoration: none;
     color: #fff;
+    padding: 0;
+    margin: 0;
 }
 
 
-p,h1,h2,h3{
-
-    padding: 0px;
-    margin: 0px;
+p,h1,h2,h4,h3{
+    padding: 0;
+    margin: 0;
 }
 
 ul{
-
     list-style: none;
     padding: 0px;
     margin: 0px;
 }
 
 i{
-
    padding: 0px;
    margin: 0px;
    font-size: 12px;
 }
 
 .logo{
-
     width: 130px;
     max-width: 100%;
 }
 
-
 header{
-
     display: flex;
     align-items: center;
     justify-content:space-between;
@@ -58,18 +52,15 @@ header{
    position: fixed;
    top: 0;
    left: 0;
-  
 }
 
 main{
-    
     position: absolute;
     top: 70px;
     width: 100%;
 }
 
 #menu{
-
     display: flex;
     align-items: center;
     gap: 30px;
@@ -77,14 +68,12 @@ main{
 }
 
 #menu a{
-
     font-weight: 300;
     padding: 4px;
+    font-size: 15px;
 }
 
-
 #menu a:hover{
-
     color:#545454;
     transition: .3s;
 }
@@ -98,7 +87,6 @@ body.dark h2{
     color: #ffffff !important; 
 }
 
-
 .checkbox{
     position:absolute;
 }
@@ -108,7 +96,6 @@ label i{
 }
 
 label{
-
     background-color:#4a8db7;
     border-radius: 50px;
     cursor:pointer;
